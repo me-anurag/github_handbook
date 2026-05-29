@@ -1,0 +1,11 @@
+Name,Language,Stars,Forks,License,Year Created
+React,JavaScript,220000,45000,MIT,2013
+Vue,JavaScript,207000,33000,MIT,2014
+Angular,TypeScript,95000,25000,MIT,2016
+Svelte,TypeScript,78000,4100,MIT,2016
+Next.js,TypeScript,125000,27000,MIT,2016
+Nuxt,TypeScript,54000,5000,MIT,2016
+Remix,TypeScript,29000,2400,MIT,2021
+Solid,JavaScript,31000,900,MIT,2021
+Astro,TypeScript,47000,2500,MIT,2021
+Qwik,TypeScript,20000,1300,MIT,2021

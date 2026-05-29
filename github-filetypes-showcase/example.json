@@ -1,0 +1,36 @@
+{
+  "name": "github-filetypes-showcase",
+  "version": "1.0.0",
+  "description": "Demonstrates every file type GitHub can render",
+  "author": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "github": "yourusername"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  },
+  "keywords": ["github", "filetypes", "showcase", "reference"],
+  "license": "MIT",
+  "supported_types": [
+    "markdown", "json", "yaml", "toml", "csv",
+    "svg", "geojson", "ipynb", "dockerfile"
+  ],
+  "render_map": {
+    "csv": "table",
+    "svg": "image",
+    "geojson": "map",
+    "ipynb": "notebook",
+    "md": "html"
+  }
+}

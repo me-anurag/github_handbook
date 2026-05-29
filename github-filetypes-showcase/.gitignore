@@ -1,0 +1,51 @@
+# GitHub renders .gitignore with pattern-aware syntax highlighting
+
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+vendor/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ── Build outputs ─────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+target/
+
+# ── Environment & secrets ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+
+# ── Editor & OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Logs & temp ───────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+coverage/
+.nyc_output/
+
+# ── Docker ────────────────────────────────────────────────────
+.dockerignore
+
+# ── Exceptions (override above) ───────────────────────────────
+!.env.example
+!.keep

@@ -1,0 +1,35 @@
+# Cargo.toml — Rust package manifest
+# GitHub highlights TOML with section headers and key=value pairs
+
+[package]
+name = "github-showcase"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A showcase of file types supported by GitHub"
+license = "MIT"
+repository = "https://github.com/user/github-filetypes-showcase"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
+pretty_assertions = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[[bin]]
+name = "showcase"
+path = "src/main.rs"

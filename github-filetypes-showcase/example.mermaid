@@ -1,0 +1,16 @@
+%% Mermaid diagrams render inside Markdown fenced blocks (```mermaid)
+%% This .mermaid file shows the syntax — paste into a .md file to render
+
+flowchart TD
+    A[Developer pushes code] --> B{CI passes?}
+    B -- Yes --> C[Code review requested]
+    B -- No --> D[Fix failing tests]
+    D --> A
+    C --> E{Approved?}
+    E -- Yes --> F[Merge to main]
+    E -- No --> G[Address feedback]
+    G --> C
+    F --> H[Auto-deploy to staging]
+    H --> I{Smoke tests pass?}
+    I -- Yes --> J[Deploy to production]
+    I -- No --> K[Rollback & alert]

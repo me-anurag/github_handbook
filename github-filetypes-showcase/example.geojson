@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GitHub HQ",
+        "city": "San Francisco",
+        "type": "headquarters",
+        "founded": 2008
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3936, 37.7886]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microsoft HQ",
+        "city": "Redmond",
+        "type": "parent_company",
+        "founded": 1975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.1311, 47.6423]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AWS us-east-1",
+        "city": "Ashburn, Virginia",
+        "type": "cloud_region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4875, 39.0438]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EU Tech Corridor",
+        "description": "Berlin to Amsterdam",
+        "type": "region"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [13.405, 52.52],
+          [9.993, 53.551],
+          [4.9041, 52.3676]
+        ]
+      }
+    }
+  ]
+}

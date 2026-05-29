@@ -1,0 +1,17 @@
+GitHub File Types Showcase
+==========================
+
+This is a plain text file. GitHub displays it as-is using a monospace font.
+No formatting, no rendering — just raw characters.
+
+Common uses:
+  - Simple notes and documentation
+  - Raw log output
+  - Requirements or dependency lists
+  - License files (though LICENSE.md is more common now)
+
+Plain text is the most universally readable format.
+It will look the same in any editor, terminal, or viewer.
+
+Wrap width: GitHub shows plain text in a scrollable code-style viewer.
+There is no word-wrap by default — long lines scroll horizontally.
