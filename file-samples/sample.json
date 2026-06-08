@@ -1,0 +1,40 @@
+{
+  "project": "github-handbook",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "github": "https://github.com/yourusername"
+  },
+  "tags": [
+    "git",
+    "github",
+    "learning",
+    "handbook"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What is Git",
+      "phase": 1,
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "Setup & Config",
+      "phase": 1,
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "SSH Keys",
+      "phase": 1,
+      "completed": false
+    }
+  ],
+  "stats": {
+    "total_lessons": 40,
+    "phases": 4,
+    "estimated_hours": 20
+  }
+}
