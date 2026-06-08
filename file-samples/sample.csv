@@ -1,0 +1,26 @@
+Lesson,Title,Phase,Difficulty,Duration (min),Completed
+1,What is Git & GitHub,Core Git,Beginner,15,Yes
+2,Setup & Config,Core Git,Beginner,20,Yes
+3,SSH Keys,Core Git,Beginner,25,Yes
+4,Creating Your First Repo,Core Git,Beginner,20,Yes
+5,Staging & Committing,Core Git,Beginner,30,Yes
+6,Commit Messages,Core Git,Beginner,20,No
+7,git log,Core Git,Beginner,25,No
+8,Git Object Model & HEAD,Core Git,Intermediate,35,No
+9,.gitignore,Core Git,Beginner,20,No
+10,git diff,Core Git,Beginner,25,No
+11,Undoing Things,Core Git,Intermediate,30,No
+12,git reflog,Core Git,Intermediate,30,No
+13,git stash,Core Git,Intermediate,25,No
+14,Tags,Core Git,Beginner,20,No
+15,Aliases,Core Git,Beginner,15,No
+16,Branching,Core Git,Beginner,25,No
+17,Merging Branches,Core Git,Intermediate,30,No
+18,Merge Conflicts,Core Git,Intermediate,40,No
+19,git rebase,Core Git,Advanced,45,No
+20,Squashing Commits,Core Git,Advanced,35,No
+21,Git Workflows,Core Git,Intermediate,40,No
+22,Remote Repos,Remotes & GitHub,Beginner,30,No
+23,Cloning a Repo,Remotes & GitHub,Beginner,20,No
+24,Forking a Repo,Remotes & GitHub,Beginner,25,No
+25,Pull Requests,Remotes & GitHub,Intermediate,35,No
