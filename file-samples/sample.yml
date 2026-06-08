@@ -1,0 +1,38 @@
+# Sample YAML File
+# GitHub displays YAML with syntax highlighting
+
+project: github-handbook
+version: 1.0.0
+
+author:
+  name: Your Name
+  email: you@example.com
+
+settings:
+  theme: dark
+  language: en
+  notifications: true
+
+dependencies:
+  - name: git
+    version: ">=2.30"
+  - name: node
+    version: ">=18.0"
+
+phases:
+  - id: 1
+    name: Core Git
+    lessons: 21
+  - id: 2
+    name: Remotes & GitHub
+    lessons: 9
+  - id: 3
+    name: Team Collaboration
+    lessons: 6
+  - id: 4
+    name: Automation
+    lessons: 4
+
+matrix:
+  os: [ubuntu-latest, macos-latest, windows-latest]
+  node: ["18", "20", "22"]

@@ -1,0 +1,16 @@
+Sample Plain Text File
+======================
+
+This is a plain .txt file.
+GitHub displays it exactly as-is — no formatting, no rendering.
+
+Use cases:
+- Simple notes or logs
+- License files (sometimes)
+- Raw data dumps
+
+Line 1: The quick brown fox jumps over the lazy dog.
+Line 2: Pack my box with five dozen liquor jugs.
+Line 3: How valiantly did Jackdaws love my big sphinx of quartz.
+
+No markdown. No HTML. Just text.

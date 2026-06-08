@@ -1,0 +1,21 @@
+Command	Category	Description	Common Use
+git init	Setup	Initialize a new repository	Start a new project
+git clone	Setup	Clone a remote repository	Get a copy of a repo
+git add	Staging	Stage changes for commit	Before every commit
+git commit	Committing	Save staged changes	Save a snapshot
+git status	Info	Show working tree status	Check what changed
+git log	Info	Show commit history	Review past commits
+git diff	Info	Show changes between commits	See what changed
+git branch	Branching	List or create branches	Manage branches
+git switch	Branching	Switch between branches	Change context
+git merge	Merging	Merge branches together	Combine work
+git rebase	Merging	Reapply commits on another base	Clean history
+git push	Remote	Push commits to remote	Share your work
+git pull	Remote	Fetch and merge from remote	Get latest changes
+git fetch	Remote	Download from remote	Check for updates
+git stash	Utility	Temporarily save changes	Switch context fast
+git tag	Utility	Mark a specific commit	Mark releases
+git reflog	Recovery	Show HEAD history log	Recover lost commits
+git revert	Undo	Create undo commit	Safe undo on shared branch
+git reset	Undo	Move HEAD to a commit	Local undo
+git restore	Undo	Restore working tree files	Discard file changes
