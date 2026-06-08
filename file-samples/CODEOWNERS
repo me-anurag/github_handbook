@@ -1,0 +1,24 @@
+# CODEOWNERS
+# GitHub behavior: when a PR touches matched files, GitHub automatically
+# requests a review from the listed owner(s).
+# Place this file in the root, /docs, or /.github of your repo.
+
+# ── Global fallback — owns everything not matched below ───────────────────────
+*                           @yourusername
+
+# ── Lesson files ──────────────────────────────────────────────────────────────
+/lessons/                   @yourusername @co-author
+
+# ── CI/CD workflows ───────────────────────────────────────────────────────────
+/.github/workflows/         @yourusername
+
+# ── Documentation ─────────────────────────────────────────────────────────────
+*.md                        @yourusername
+CHANGELOG.md                @yourusername
+CONTRIBUTING.md             @yourusername
+
+# ── File samples ──────────────────────────────────────────────────────────────
+/file-samples/              @yourusername
+
+# ── Multiple owners (any one of them can approve) ─────────────────────────────
+/docs/                      @yourusername @docs-team
